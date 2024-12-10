@@ -7,3 +7,18 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background: #1c1e29;
 }
+
+
+/* Add this CSS to your styles */
+.editor {
+    width: 100%; /* Full width */
+    height: 400px; /* Set a height */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding for inner spacing */
+    font-family: 'Fira Code', monospace; /* Monospace font for code */
+    font-size: 14px; /* Font size */
+    background-color: #282a36; /* Background color matching the theme */
+    color: #f8f8f2; /* Text color matching the theme */
+    overflow: auto; /* Scroll if content overflows */
+}
